@@ -1,1 +1,28 @@
-/node_modules
+# dependencies
+node_modules/
+.env
+.npmrc
+
+# production build
+dist/
+
+# logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# local development
+.vscode/
+.DS_Store
+
+# optional: lock files (choose one if using yarn/pnpm)
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+
+# OS / editor files
+Thumbs.db
+*.swp
+
+# Git
+.git/
