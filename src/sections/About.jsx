@@ -17,72 +17,51 @@ const About = () => {
             className="absolute scale-[1.75] -right-[5rem] -top-[1rem] md:scale-[3] md:left-50 md:inset-y-10 lg:scale-[2.5]"
           />
           <div className="z-10">
-            <p className="headtext">Hi, I'm Ali Sanati</p>
-            <p className="subtext">
-              Over the last 4 years, I developed my frontend and backend dev
-              skills to deliver dynamic and software and web applications.
+            <p className="headtext">
+              &gt; whoami <br />
+              I’m Rajeeb build stories with logic.
+            </p>
+            <p className="subtext mb-4 ">
+              Passionate Python developer & data enthusiast. I build AI tools,
+              analyze data, and turn ideas into reality — from face recognition
+              to chat analyzers. Currently learning React & building my dream
+              SaaS. Always hacking. Always learning.
             </p>
           </div>
           <div className="absolute inset-x-0 pointer-evets-none -bottom-4 h-1/2 sm:h-1/3 bg-gradient-to-t from-indigo" />
         </div>
         {/* Grid 2 */}
         <div className="grid-default-color grid-2">
-          <div
-            ref={grid2Container}
-            className="flex items-center justify-center w-full h-full"
-          >
-            <p className="flex items-end text-5xl text-gray-500">
-              CODE IS CRAFT
+          <div className="mb-3">
+            <h2 className="text-lg font-bold flex items-center">
+              <span className="text-teal-400 text-xl mr-2">✨</span> My Reads
+            </h2>
+            <p className="text-sm text-slate-300 mt-1 mb-4">
+              Fuel for My Soul & Skills
             </p>
-            <Card
-              style={{ rotate: "75deg", top: "30%", left: "20%" }}
-              text="GRASP"
-              containerRef={grid2Container}
-            />
-            <Card
-              style={{ rotate: "-30deg", top: "60%", left: "45%" }}
-              text="SOLID"
-              containerRef={grid2Container}
-            />
-            <Card
-              style={{ rotate: "90deg", bottom: "30%", left: "70%" }}
-              text="Design Patterns"
-              containerRef={grid2Container}
-            />
-            <Card
-              style={{ rotate: "-45deg", top: "55%", left: "0%" }}
-              text="Design Principles"
-              containerRef={grid2Container}
-            />
-            <Card
-              style={{ rotate: "20deg", top: "10%", left: "38%" }}
-              text="SRP"
-              containerRef={grid2Container}
-            />
-            <Card
-              style={{ rotate: "30deg", top: "70%", left: "70%" }}
-              image="assets/logos/csharp-pink.png"
-              containerRef={grid2Container}
-            />
-            <Card
-              style={{ rotate: "-45deg", top: "70%", left: "25%" }}
-              image="assets/logos/dotnet-pink.png"
-              containerRef={grid2Container}
-            />
-            <Card
-              style={{ rotate: "-45deg", top: "5%", left: "10%" }}
-              image="assets/logos/blazor-pink.png"
-              containerRef={grid2Container}
-            />
+          </div>
+          <div className="grid grid-cols-2 gap-4">
+            <div className="flex justify-center items-center  rounded-md max-h-64 overflow-hidden">
+              <img
+                src="assets/gita.png"
+                alt="Gita"
+                className="h-64 object-contain"
+              />
+            </div>
+            <div className="flex justify-center items-center  rounded-md max-h-64 overflow-hidden">
+              <img
+                src="assets/python-book.jpg"
+                alt="Python Data Science Handbook"
+                className="h-64 object-contain"
+              />
+            </div>
           </div>
         </div>
         {/* Grid 3 */}
         <div className="grid-black-color grid-3">
           <div className="z-10 w-[50%]">
             <p className="headtext">Time Zone</p>
-            <p className="subtext">
-              I'm based in Mars, and open to remote work worldwide
-            </p>
+            <p className="subtext">I am from Earth, ready to work worldwide</p>
           </div>
           <figure className="absolute left-[30%] top-[10%]">
             <Globe />
@@ -90,11 +69,17 @@ const About = () => {
         </div>
         {/* Grid 4 */}
         <div className="grid-special-color grid-4">
-          <div className="flex flex-col items-center justify-center gap-4 size-full">
-            <p className="text-center headtext">
-              Do you want to start a project together?
-            </p>
-            <CopyEmailButton />
+          <h3 className="text-xl font-bold text-white mb-4">
+            📦 Services Offered
+          </h3>
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6"></div>
+          <div>
+            <ul>📊 Data Analysis & Dashboards</ul>
+            <ul>🤖 Custom AI/ML Prototypes</ul>
+            <ul>🌐 Full‑Stack Web Development</ul>
+            <ul>🛡️ Cybersecurity Audits</ul>
+            <ul>⚙️ Automation & Scripting</ul>
+            <ul>🗄️ Database Design & Management</ul>
           </div>
         </div>
         {/* Grid 5 */}
@@ -102,8 +87,7 @@ const About = () => {
           <div className="z-10 w-[50%]">
             <p className="headText">Teck Stack</p>
             <p className="subtext">
-              I specialize in a variety of languages, frameworks, and tools taht
-              allow me to build robust and scalable applications
+            I work with a range of languages, frameworks, and tools to craft scalable and reliable applications tailored for performance and usability.
             </p>
           </div>
           <div className="absolute inset-y-0 md:inset-y-9 w-full h-full start-[50%] md:scale-125">
