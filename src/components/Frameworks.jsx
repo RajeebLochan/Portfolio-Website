@@ -23,9 +23,10 @@ export function Frameworks() {
     "pandas",
     "tensorflow",
     "pytorch",
+    "opencv",
     "powerbi",
     "streamlit",
-    "cisco"
+    "cisco",
   ];
   
   return (

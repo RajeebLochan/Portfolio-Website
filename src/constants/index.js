@@ -1,33 +1,30 @@
 export const myProjects = [
   {
     id: 1,
-    title: "E-commerce Platform",
+    title: "Sweatable – Your Multilingual AI Companion",
     description:
-      "Facilitates purchases from international websites like Amazon and eBay, allowing customers to shop from these sites and have products delivered domestically.",
+      "Sweatable is a multilingual AI companion app built with Streamlit and Sarvam AI. It lets users chat in Indian languages, offering emotional support and engaging responses with a human-like typing feel. Simple, friendly, and always ready to talk.",
     subDescription: [
-      "Built a scalable application with ASP.NET Core MVC, integrating global platforms like Amazon for domestic delivery.",
-      "Implemented secure authentication and database management using ASP.NET Core Identity and Entity Framework Core.",
-      "Designed a responsive frontend with Tailwind CSS, enhancing user experience.",
-      "Added payment systems, localization, and product filtering for functionality improvements.",
+      "Sweatable is an AI-powered multilingual companion app built with Streamlit and Sarvam API. It helps users engage in natural conversations across various languages, offering support, insights, and companionship anytime. With a clean UI and seamless deployment, Sweatable brings emotional intelligence and tech together to create a helpful, human-like experience."
     ],
-    href: "",
+    href: "https://sweatable.streamlit.app",
     logo: "",
-    image: "/assets/projects/accessories.jpg",
+    image: "/assets/projects/sweatable.jpg",
     tags: [
       {
         id: 1,
-        name: "C#",
-        path: "/assets/logos/csharp.svg",
+        name: "Streamlit",
+        path: "/assets/logos/streamlit.svg",
       },
       {
         id: 2,
-        name: ".Net",
-        path: "/assets/logos/dotnet.svg",
+        name: "Python",
+        path: "/assets/logos/python.svg",
       },
       {
         id: 3,
-        name: "Ef Core",
-        path: "/assets/logos/efcore.png",
+        name: "CSS",
+        path: "/assets/logos/css3.svg",
       },
       {
         id: 4,
@@ -38,65 +35,65 @@ export const myProjects = [
   },
   {
     id: 2,
-    title: "Authentication & Authorization System",
+    title: "WhatsApp Conversation Analyzer",
     description:
-      "A secure authentication and authorization system using Auth0 for seamless user management.",
+      "Analyze WhatsApp chats with ML & Generative AI to reveal mood trends, apology/gratitude frequency, personas, and conversation insights. Built with Python, Streamlit, Pandas, and LLMs. Visualize your chat history like never before!",
     subDescription: [
-      "Integrated Auth0 for authentication, supporting OAuth, JWT, and multi-factor authentication.",
-      "Implemented role-based access control (RBAC) for fine-grained user permissions.",
-      "Developed a React-based frontend with Tailwind CSS for a sleek user experience.",
-      "Connected to a secure SQLite database for user data storage.",
+      "An interactive data analysis tool built with Streamlit and Python to explore and visualize WhatsApp chat data. It uncovers key insights like message frequency, top contributors, sentiment trends, emoji usage, and active hours. Designed for both fun and analysis, it helps users understand group dynamics and personal interactions in an intuitive way.",
     ],
     href: "",
     logo: "",
-    image: "/assets/projects/auth-system.jpg",
+    image: "/assets/projects/whatsapp.jpg",
     tags: [
       {
         id: 1,
-        name: "Auth0",
-        path: "/assets/logos/auth0.svg",
+        name: "Python",
+        path: "/assets/logos/python.svg",
       },
       {
         id: 2,
-        name: "React",
-        path: "/assets/logos/react.svg",
+        name: "Pandas",
+        path: "/assets/logos/pandas.svg",
       },
       {
         id: 3,
-        name: "SQLite",
-        path: "/assets/logos/sqlite.svg",
+        name: "Streamlit",
+        path: "/assets/logos/streamlit.svg",
       },
       {
         id: 4,
-        name: "TailwindCSS",
-        path: "/assets/logos/tailwindcss.svg",
+        name: "SQL",
+        path: "/assets/logos/sql.svg",
       },
+      {
+        id: 5,
+        name: "Pytorch",
+        path: "/assets/logos/pytorch.svg",
+      },
+      
     ],
   },
   {
     id: 3,
-    title: "Blazor Web App",
+    title: "Face Recognition Attendance System",
     description:
-      "A modern, interactive web application built with Blazor WebAssembly and .NET Core.",
+      "ace Recognition Attendance System using Python & OpenCV. It detects faces via webcam, encodes them, matches against stored profiles, and logs attendance with timestamps in a database. Offers a django UI for user interaction.",
     subDescription: [
-      "Developed a fully interactive Single Page Application (SPA) using Blazor WebAssembly.",
-      "Implemented API interactions using .NET Core for a robust backend.",
-      "Designed responsive UI components with Tailwind CSS for an enhanced UX.",
-      "Integrated SQLite for efficient client-side database storage.",
+      "A real-time facial recognition attendance system built with Python, OpenCV, FaceNet, and Django. It captures student faces via webcam, encodes them, and marks attendance automatically with high accuracy. The system includes admin login, student registration, and attendance tracking features, all backed by a SQLite database and a clean web interface.",
     ],
     href: "",
     logo: "",
-    image: "/assets/projects/blazor-app.jpg",
+    image: "/assets/projects/attendance.png",
     tags: [
       {
         id: 1,
-        name: "Blazor",
-        path: "/assets/logos/blazor.svg",
+        name: "Python",
+        path: "/assets/logos/python.svg",
       },
       {
         id: 2,
-        name: ".NET Core",
-        path: "/assets/logos/dotnetcore.svg",
+        name: "Django",
+        path: "/assets/logos/django.svg",
       },
       {
         id: 3,
@@ -107,174 +104,121 @@ export const myProjects = [
         id: 4,
         name: "TailwindCSS",
         path: "/assets/logos/tailwindcss.svg",
+      },
+      {
+        id: 5,
+        name: "Pytorch",
+        path: "/assets/logos/pytorch.svg",
+      },
+      {
+        id: 6,
+        name: "OepenCV",
+        path: "/assets/logos/opencv.svg",
       },
     ],
   },
   {
     id: 4,
-    title: "C++ Game Engine",
+    title: "Uber Data Analytics",
     description:
-      "A lightweight C++ game engine designed for 2D and 3D game development.",
+      "An interactive Power BI dashboard analyzing Uber ride data. Tracks key KPIs like total trips, fare, distance, duration & night trip percentage. Built using Power Query, DAX & data modeling to uncover insights based on location, time & payment methods",
     subDescription: [
-      "Built a powerful rendering engine using OpenGL and C++.",
-      "Developed a physics engine with collision detection and particle effects.",
-      "Implemented a scripting system for easy game customization.",
-      "Optimized performance with multi-threading and efficient memory management.",
+      "Developed an interactive Power BI dashboard using Uber ride data to uncover insights like total trips, average fare, ride duration, distance, and peak hours. The project features fact and dimension tables, key KPIs, and visual storytelling to support business decisions. It highlights trends such as night trip percentages and city-wise demand patterns.",
     ],
     href: "",
     logo: "",
-    image: "/assets/projects/game-engine.jpg",
+    image: "/assets/projects/uber.png",
     tags: [
       {
         id: 1,
-        name: "C++",
-        path: "/assets/logos/cplusplus.svg",
+        name: "Excel",
+        path: "/assets/logos/excel.svg",
       },
       {
         id: 2,
-        name: "C#",
-        path: "/assets/logos/csharp.svg",
+        name: "SQL",
+        path: "/assets/logos/sql.svg",
       },
       {
         id: 3,
-        name: "Git",
-        path: "/assets/logos/git.svg",
+        name: "Power BI",
+        path: "/assets/logos/powerbi.svg",
       },
-      {
-        id: 4,
-        name: "Microsoft",
-        path: "/assets/logos/microsoft.svg",
-      },
+    
     ],
   },
   {
     id: 5,
-    title: "WordPress Custom Theme",
+    title: "ICC Champions Trophy Analysis (1998–2025)",
     description:
-      "A fully customizable WordPress theme optimized for performance and SEO.",
+      "ICC Champions Trophy Analysis (1998–2025) – A Power BI dashboard visualizing team performances, match results, top players, and tournament trends. Explore historical insights, win rates, and standout moments with interactive filters and clean visuals. Built for cricket fans & analysts.",
     subDescription: [
-      "Developed a responsive WordPress theme using HTML5, CSS3, and JavaScript.",
-      "Integrated Tailwind CSS for modern styling and UI enhancements.",
-      "Optimized SEO and page speed using Vite.js for fast builds.",
-      "Implemented custom widgets and plugin compatibility for extended functionality.",
+      "A comprehensive Power BI dashboard analyzing ICC Champions Trophy data from 1998 to 2025. It showcases key insights like top teams, player performances, win ratios, match venues, and historical trends. The dashboard is fully interactive, offering drilldowns and filters for exploring stats by year, team, or player, making cricket data both engaging and insightful.",
     ],
     href: "",
     logo: "",
-    image: "/assets/projects/wordpress-theme.jpg",
+    image: "/assets/projects/icc.png",
     tags: [
       {
         id: 1,
-        name: "WordPress",
-        path: "/assets/logos/wordpress.svg",
+        name: "Excel",
+        path: "/assets/logos/excel.svg",
       },
       {
         id: 2,
-        name: "HTML5",
-        path: "/assets/logos/html5.svg",
+        name: "SQL",
+        path: "/assets/logos/sql.svg",
       },
       {
         id: 3,
-        name: "CSS3",
-        path: "/assets/logos/css3.svg",
+        name: "Power BI",
+        path: "/assets/logos/powerbi.svg",
       },
-      {
-        id: 4,
-        name: "Vite.js",
-        path: "/assets/logos/vitejs.svg",
-      },
+
     ],
-  },
-  {
-    id: 6,
-    title: "Online Learning Platform",
-    description:
-      "A web application that allows users to enroll in courses, watch video lectures, and take quizzes.",
-    subDescription: [
-      "Built using Blazor WebAssembly for a seamless SPA experience.",
-      "Implemented video streaming with Azure Media Services.",
-      "Added a quiz system with dynamic question generation and real-time grading.",
-      "Integrated Stripe API for secure payment processing.",
-    ],
-    href: "",
-    logo: "",
-    image: "/assets/projects/elearning.jpg",
-    tags: [
-      {
-        id: 1,
-        name: "Blazor",
-        path: "/assets/logos/blazor.svg",
-      },
-      {
-        id: 2,
-        name: "Azure",
-        path: "/assets/logos/azure.svg",
-      },
-      {
-        id: 3,
-        name: "Stripe",
-        path: "/assets/logos/stripe.svg",
-      },
-      {
-        id: 4,
-        name: "TailwindCSS",
-        path: "/assets/logos/tailwindcss.svg",
-      },
-    ],
-  },
+  },  
 ];
 
 export const mySocials = [
   {
-    name: "WhatsApp",
-    href: "",
-    icon: "/assets/socials/whatsApp.svg",
+    name: "X",
+    href: "https://x.com/rajeeb_thedev",
+    icon: "/assets/socials/x.png",
   },
   {
     name: "Linkedin",
-    href: "https://www.linkedin.com/in/ali-sanati/",
+    href: "https://www.linkedin.com/in/rajeeb-lochan/",
     icon: "/assets/socials/linkedIn.svg",
   },
   {
-    name: "Instagram",
-    href: "https://www.instagram.com/ali.sanatidev/reels/",
-    icon: "/assets/socials/instagram.svg",
+    name: "GitHub",
+    href: "https://github.com/RajeebLochan",
+    icon: "/assets/socials/githubw.png",
   },
 ];
 
 export const experiences = [
   {
-    title: "Software Developer",
-    job: "Security & Defense Projects",
-    date: "2021-2023",
+    title: "Data Analyst Intern",
+    job: "Sure Trust",
+    date: "November 2024 - April 2025",
     contents: [
-      "Enhanced application security and developed new features, adhering to standards set by the Passive Defense Organization and National Cyberspace Center.",
-      "Designed and implemented intuitive map interfaces using MapsUI, enhancing user experience and enabling seamless interactive map integration.",
-      "Developed applications for industrial automation, leveraging C++ and the Fatek API for PLC communication.",
-      "Enhanced responsiveness and usability of applications using Windows Forms and WPF frameworks.",
-      "Executed XML to SVG conversions using X-DOM, ensuring dynamic and efficient data visualization.",
+      "Developed interactive Power BI dashboards to visualize and analyze data trends, enhancing decision-making processes.",
+      "Collaborated with cross-functional teams to gather requirements and deliver data-driven insights.",
+      "Utilized SQL for data extraction and manipulation, ensuring accurate reporting and analysis.",
+      "Implemented data quality checks and validation processes to maintain high standards of data integrity.",
     ],
   },
   {
-    title: "Back-End Developer",
-    job: "Car Manufacture",
-    date: "2023-2024",
+    title: "",
+    job: "IBM SkillsBuild – AI & Cloud Internship ",
+    date: "June 2024 - July 2024",
     contents: [
-      "Engineered systems for large-scale data ingestion and analysis, ensuring efficient data processing and storage.",
-      "Developed back-end systems enabling vehicle-to-cloud communication for telemetry, diagnostics, and remote control:",
-      "✅ Implemented secure APIs, following ISO 26262 automotive safety standards.",
-      "✅ Ensured data privacy for customers and partners through industry-compliant protocols.",
-      "✅ Delivered remote features like over-the-air updates, real-time tracking, and remote start capabilities.",
+      "I successfully completed a 4-week internship under the IBM SkillsBuild program, facilitated by Edunet Foundation. The internship focused on building foundational and practical knowledge in Cloud Computing, Artificial Intelligence, Data Analytics, and Machine Learning using the IBM Cloud Platform.",
+      "Throughout the program, I engaged in a structured learning path that combined expert-led masterclasses, self-paced learning, and hands-on activities. I learned the core concepts of cloud infrastructure, AI models, and the application of data analytics in solving real-world problems. The program included building chatbots, working on data analytics using cloud-based EDA tools, and performing ML experiments with AutoAI.",
     ],
   },
-  {
-    title: "Freelance Developer",
-    job: "Self-Employed",
-    date: "2025-Present",
-    contents: [
-      "Created a personal portfolio using Three.js, React, Vite, and WebAPI to showcase technical expertise.",
-      "Continuously enhancing technical skills and expanding expertise in modern web development and back-end technologies.",
-    ],
-  },
+  
 ];
 export const reviews = [
   {
