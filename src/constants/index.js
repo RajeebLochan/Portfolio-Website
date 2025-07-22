@@ -41,7 +41,7 @@ export const myProjects = [
     subDescription: [
       "An interactive data analysis tool built with Streamlit and Python to explore and visualize WhatsApp chat data. It uncovers key insights like message frequency, top contributors, sentiment trends, emoji usage, and active hours. Designed for both fun and analysis, it helps users understand group dynamics and personal interactions in an intuitive way.",
     ],
-    href: "",
+    href: "https://whatsapp-conversation-analyzer.streamlit.app/",
     logo: "",
     image: "/assets/projects/whatsapp.jpg",
     tags: [
@@ -81,7 +81,7 @@ export const myProjects = [
     subDescription: [
       "A real-time facial recognition attendance system built with Python, OpenCV, FaceNet, and Django. It captures student faces via webcam, encodes them, and marks attendance automatically with high accuracy. The system includes admin login, student registration, and attendance tracking features, all backed by a SQLite database and a clean web interface.",
     ],
-    href: "",
+    href: "https://github.com/RajeebLochan/Project-Face-attandence-system",
     logo: "",
     image: "/assets/projects/attendance.png",
     tags: [
@@ -125,7 +125,7 @@ export const myProjects = [
     subDescription: [
       "Developed an interactive Power BI dashboard using Uber ride data to uncover insights like total trips, average fare, ride duration, distance, and peak hours. The project features fact and dimension tables, key KPIs, and visual storytelling to support business decisions. It highlights trends such as night trip percentages and city-wise demand patterns.",
     ],
-    href: "",
+    href: "https://github.com/RajeebLochan/Uber_Data_Analytics",
     logo: "",
     image: "/assets/projects/uber.png",
     tags: [
@@ -155,7 +155,7 @@ export const myProjects = [
     subDescription: [
       "A comprehensive Power BI dashboard analyzing ICC Champions Trophy data from 1998 to 2025. It showcases key insights like top teams, player performances, win ratios, match venues, and historical trends. The dashboard is fully interactive, offering drilldowns and filters for exploring stats by year, team, or player, making cricket data both engaging and insightful.",
     ],
-    href: "",
+    href: "https://github.com/RajeebLochan/ICC-Champions-Trophy-Analysis",
     logo: "",
     image: "/assets/projects/icc.png",
     tags: [
